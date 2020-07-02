@@ -1,0 +1,173 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include 'acc/head-section.html' %}
+  <body>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div>
+
+    <div class="page">
+
+      {% include 'acc/navbar.html' %}
+    <div id="colorlib-page">
+      {% include 'acc/header-section.html' %}
+
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Hello! We are</a></p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Catilina Developers</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">What we do</a></p>
+                  <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">We create design Solution for any media</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END slider -->
+      
+      <section class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
+            <div class="col-md-4 author-img" style="background-image: url({% static 'images/image_1.jpg' %});" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text">About</h1>
+                <div class="p-5">
+                  <h2 class="mb-5">Hi! We are Catilina Developers</h2>
+                  <p>Some design style guides are simple and straight forward, including only basic typography and color styles; others are informative and some what complicated, and go into great details in defining all aspects of brand guidelines.</p>
+                  <!--<p><a href="/portfolio">Checkout Our Projects</a></p>
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                  </ul>-->
+                  <h5>Contact us here!</h5>
+                  <p>Email: <a href="#">catilinadevelopers@outlook.com</a></p>
+                  <p>Phone: <a href="#">+91-76900-33961</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>What we do</span>
+              <h2>My services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-layers"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">App Development</h3>
+                  <h3 class="heading">Android</h3>
+                  <h3 class="heading">& I.O.S</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">A.I</h3>
+                  <h3 class="heading">Strategy </h3>
+                  <h3 class="heading">& Implementation</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-code"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">WEB</h3>
+                  <h3 class="heading">Development</h3>
+                  <h3 class="heading">& Design</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {% include 'acc/showcase.html' %}
+
+      <section class="ftco-section ftco-counter" id="section-counter">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Achievements</span>
+              <h2>We are proud in sharing what we have achieve</h2>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-start">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Clients</span>
+                  <strong class="number" data-number="80">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Project done</span>
+                  <strong class="number" data-number="100">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end">
+            <div class="col-md-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Cups of coffee</span>
+                  <strong class="number" data-number="240">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {% include 'acc/footer-section.html' %}
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+    </div>
+
+
+  {% include 'acc/script-section.html' %}
+  </body>
+</html>

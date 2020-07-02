@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'acc/head-section.html' %}
+  <body>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div>
+    <div class="page">
+    {% include 'acc/navbar.html' %}
+    <div id="colorlib-page">
+      {% include 'acc/header-section.html' %}
+      <section class="ftco-section contact-section">
+        <div class="container mt-5">
+          <div class="row d-flex mb-5 contact-info">
+            <div class="col-md-12 mb-4">
+              <h2 class="h4">Contact Information</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-2">
+              <p><span>Address:</span> India</p>
+            </div>
+            <div class="col-md-3">
+              <p><span>Phone:</span> <a href="tel://+917690033961">+917690033961</a></p>
+            </div>
+            <div class="col-md-5">
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">catilinedevelopers@outlook.com</a></p>
+            </div>
+            <div class="col-md-2">
+              <p><span>Website:</span> <a href="/">Visit Us</a></p>
+            </div>
+          </div>
+          <div class="row block-9">
+            <div class="col-md-12 pr-md-5">
+              <form action="/form_submission/" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                  <input name="cust_name" type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <input name="email" type="text" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <input name="subject" type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                </div>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {% include 'acc/footer-section.html' %}
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+    </div>
+
+
+    {% include 'acc/script-section.html' %}
+  </body>
+</html>

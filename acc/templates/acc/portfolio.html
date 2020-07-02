@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'acc/head-section.html' %}
+  <body>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div>
+    <div class="page">
+    {% include 'acc/navbar.html' %}
+
+    <div id="colorlib-page">
+      {% include 'acc/header-section.html' %}
+
+      {% include 'acc/showcase.html' %}
+
+      {% include 'acc/footer-section.html' %}
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+    </div>
+
+
+    {% include 'acc/script-section.html' %}
+  </body>
+</html>

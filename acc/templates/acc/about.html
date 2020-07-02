@@ -1,0 +1,225 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'acc/head-section.html' %}
+  <body>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div>
+    <div class="page">
+    {% include 'acc/navbar.html' %}
+
+    <div id="colorlib-page">
+		{% include 'acc/header-section.html' %}
+
+      <section class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex my-5" data-scrollax-parent="true">
+            <div class="col-md-4 author-img" style="background-image: url({% static 'images/image_1.jpg' %});" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text">About</h1>
+                <div class="p-5">
+                  <h2 class="mb-5">Hi! We are Catilina Developers</h2>
+                  <p>Some design style guides are simple and straight forward, including only basic typography and color styles; others are informative and some what complicated, and go into great details in defining all aspects of brand guidelines.</p>
+                 <!-- <p><a href="#">Checkout my resume</a></p>-->
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                  </ul>
+                  <h5>Contact me here!</h5>
+                  <p>Email: <a href="#">catilinadevelopers@outlook.com</a></p>
+                  <p>Phone: <a href="#">+91-76900-33961</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end mt-5">
+          	<div class="col-md-10">
+          		<div class="profile ftco-animate">
+	          		<h2 class="mb-4">What we are?</h2>
+	          		<h4 class="mb-4">We Full Stack Developers from India. We aim to make a difference through our inovative and creative design solutions.</h4>
+					  <p>At least 40% of all businesses will die in the next 10 years… if they don’t figure out how to change their entire company to accommodate new technologies</p>
+					  <p>We want to change this. We want Business to grow who have potential that they can grow and can achieve great heights. We want to help them digitalise at minimum budget so that they won't back of because of new technology trends.</p>
+	          		<div class="row my-5">
+		          		<div class="col-md-6">
+		          			<p><strong>Founder:</strong> <span>Yash Bhalkar</span></p>
+		          			<p><strong>Address:</strong> <span>Pune, India</span></p>
+		          			<p><strong>Phone:</strong> <span>(123)-456-789</span></p>
+		          		</div>
+		          		<div class="col-md-6">
+		          			<p><strong>Co-Founder:</strong> <span>Hrithik</span></p>
+		          			<p><strong>Address:</strong> <span>India</span></p>
+		          			<p><strong>Phone:</strong> <span>+91-76900-33961</span></p>
+		          		</div>
+	          		</div>
+          		</div>
+
+          		<div class="exp mt-5 ftco-animate">
+          			<h2 class="mb-4">Experience</h2>
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>UX &amp; UI Interaction Design</h4>
+	          				<p class="location">India</p>
+          				</div>
+          				<div class="year">
+          					<p>1 Years</p>
+          				</div>
+          			</div>
+
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>App Development</h4>
+	          				<p class="location">India</p>
+          				</div>
+          				<div class="year">
+          					<p>3 Years</p>
+          				</div>
+          			</div>
+
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>Web Development</h4>
+	          				<p class="location">India</p>
+          				</div>
+          				<div class="year">
+          					<p>2 Yeasr</p>
+          				</div>
+          			</div>
+
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>Artificial Intelligence</h4>
+	          				<p class="location">India</p>
+          				</div>
+          				<div class="year">
+          					<p>1 Year</p>
+          				</div>
+          			</div>
+          		</div>
+
+
+        		<!--<div class="exp mt-5 ftco-animate">
+          			<h2 class="mb-4">Education</h2>
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>Master Degree in Computer Science<span> - Harvard University</span> </h4>
+	          				<p class="location">Germany - Berlin</p>
+          				</div>
+          				<div class="year">
+          					<p>2013 - 2014</p>
+          				</div>
+          			</div>
+
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>Bacheclor of Science in Computer Science<span> - Harvard University</span> </h4>
+	          				<p class="location">Germany - Berlin</p>
+          				</div>
+          				<div class="year">
+          					<p>2009 - 2012</p>
+          				</div>
+          			</div>
+
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>Diploma in Information Technology<span> - Oxford University</span> </h4>
+	          				<p class="location">Germany - Berlin</p>
+          				</div>
+          				<div class="year">
+          					<p>2008 - 2010</p>
+          				</div>
+          			</div>		  
+          			<div class="exp-wrap py-4">
+          				<div class="desc">
+	          				<h4>Front-End Developer <span> - Big Comany</span> </h4>
+	          				<p class="location">Germany - Berlin</p>
+          				</div>
+          				<div class="year">
+          					<p>2012 - 2014</p>
+          				</div>
+          			</div>
+          		</div>-->
+          	</div>
+          </div>
+          <div class="row mt-5 flex-column ftco-animate">
+          	<div class="col-md-8">
+          		<h2 class="mb-4">Our Skills</h2>
+          	</div>
+          	<div class="col-md-6 animate-box">
+								<div class="progress-wrap">
+									<h4>UI/UX Design</h4>
+									<div class="progress">
+									 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+									  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+									    <span>85%</span>
+									  	</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="progress-wrap">
+									<h4>A.I Development</h4>
+									<div class="progress">
+									 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+									  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									    <span>90%</span>
+									  	</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap">
+									<h4>App Development</h4>
+									<div class="progress">
+									 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+									  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+									    <span>80%</span>
+									  	</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="progress-wrap">
+									<h4>Web Developement</h4>
+									<div class="progress">
+									 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="95"
+									  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
+									    <span>95%</span>
+									  	</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="progress-wrap">
+									<h4>SEO</h4>
+									<div class="progress">
+									 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+									  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+									    <span>80%</span>
+									  	</div>
+									</div>
+								</div>
+							</div>
+          </div>
+        </div>
+      </section>
+
+      {% include 'acc/footer-section.html' %}
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+    </div>
+
+
+    {% include 'acc/script-section.html' %}
+  </body>
+</html>
